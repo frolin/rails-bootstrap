@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.0.0'
 gem 'rails', '4.1.4'
-gem 'sqlite3'
+gem 'pg'
 gem 'sass-rails', '~> 4.0.3'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
@@ -16,6 +16,24 @@ gem 'slim-rails'
 gem 'therubyracer', :platform=>:ruby
 gem 'unicorn'
 gem 'unicorn-rails'
+
+
+#Database Enum
+gem 'enumerize'
+
+#Auth
+gem 'devise'
+gem 'cancancan'
+
+#Forms
+gem 'simple_form'
+gem 'bootstrap_form'
+
+#For Images
+
+gem "paperclip", "~> 4.1"
+
+
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_20]

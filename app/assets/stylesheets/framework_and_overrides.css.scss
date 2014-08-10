@@ -20,7 +20,21 @@ img {
   }
 .form {
   @extend .col-md-6;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 20px;
   }
+
+  .form-control {
+
+    height: 52px;
+    font-size: 22px;
+
+
+  }
+
+.checkbox label {font-size: 16px;}
+
 .form-centered {
   @extend .col-md-6;
   @extend .text-center;
@@ -34,7 +48,7 @@ img {
 // to make views framework-neutral
 main {
   @extend .container;
-  background-color: #eee;
+  background-color: #b5b8ee;
   padding-bottom: 80px;
   width: 100%;
   margin-top: 51px; // accommodate the navbar
